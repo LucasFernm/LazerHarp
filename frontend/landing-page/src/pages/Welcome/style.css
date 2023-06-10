@@ -1,8 +1,0 @@
-about {
-    display: flexbox;
-    align-content: space-between;
-}
-
-about p {
-    font-size: 25px;
-}
