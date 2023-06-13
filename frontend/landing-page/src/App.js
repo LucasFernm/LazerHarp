@@ -1,19 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import HomePage from "./pages/HomePage";
-import MembersPage from "./pages/MembersPage";
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import UserCreationForm from "./components/UserCreationForm";
+import UserLoginForm from "./components/UserLoginForm";
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/members" element={<MembersPage />} />
-      </Routes>
-    </Router>
+    <div>
+      <h1>Formulário de Criação de Usuário</h1>
+      <UserCreationForm />
+
+      <h1>Formulário de Login do Usuário</h1>
+      <UserLoginForm />
+    </div>
   );
 };
 

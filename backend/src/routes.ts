@@ -24,7 +24,7 @@ export default router;
 
 // Fazer login do usuário
 // Método: POST
-// URL: http://localhost:3000/users/login
+// URL: http://localhost:3000/login
 // Body:
 // {
 //   "email": "johndoe@example.com",
